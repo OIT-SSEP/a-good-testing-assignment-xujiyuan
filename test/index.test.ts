@@ -6,7 +6,7 @@ import { SomeThingClass } from '../class';
 
 describe('Index Test', () => {
   it('should always pass', function () {
-    expect(1).to.equal(101);
+    expect(1).to.equal(1);
   });
 
   it('should get users for get endpoint', async () => {
