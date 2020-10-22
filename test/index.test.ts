@@ -11,7 +11,7 @@ describe('Index Test', () => {
 
   it('should get users for get endpoint', async () => {
     const res = await request(app).get('/');
-    expect(res.body.length).equal(99999999);
+    expect(res.body.length).equal(2222);
   });
 
   it('expect userService fnc works', () => {
